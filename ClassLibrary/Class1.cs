@@ -32,7 +32,7 @@ namespace ClassLibrary
             }
             
         }
-        public double Mypi(double a)
+        public double MyPi(double a)
         {
             return a * Math.PI;
         }
