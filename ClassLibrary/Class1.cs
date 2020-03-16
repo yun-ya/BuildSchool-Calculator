@@ -20,19 +20,28 @@ namespace ClassLibrary
             return a - b;
         } 
     }
-    public class ccc
+    public class multiply
     {
-        public double Myccc(double a,double b)
+        public double Mymultiply(double a,double b)
         {
             return a * b;
         }
     }
-    public class ddd
+    public class Divided
     {
-        public double Myddd(double a,double b)
+        public double Mydivided(double a,double b)
         {
             return a / b;
         }
     }
+    public class PI
+    {
+        public double Mypi (double a)
+        {
+            return a * 3.14159265359;
+        }
+    }
+
+    
      
 }
