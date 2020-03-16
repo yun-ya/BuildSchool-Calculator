@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary
 {
-    public class Math
+    public class MaTH
     {
         public double Mysum(double a, double b)
         {
@@ -22,11 +22,19 @@ namespace ClassLibrary
         }
         public double Mydivided(double a, double b)
         {
-            return a / b;
+            if (a < b)
+            {
+                return 0;
+            }
+            else
+            {
+                return a / b;
+            }
+            
         }
         public double Mypi(double a)
         {
-            return a * 3.14159265359;
+            return a * Math.PI;
         }
     }
 
